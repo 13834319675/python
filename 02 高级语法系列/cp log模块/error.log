@@ -1,0 +1,8 @@
+2019-02-28 17:00:10,000 - ERROR - 02.py[:42] - error message
+2019-02-28 17:00:10,000 - CRITICAL - 02.py[:43] - critical message
+2019-03-01 14:27:56,205 - ERROR - 02.py[:42] - error message
+2019-03-01 14:27:56,206 - CRITICAL - 02.py[:43] - critical message
+2019-03-01 15:48:35,061 - ERROR - 02.py[:44] - error message
+2019-03-01 15:48:35,061 - CRITICAL - 02.py[:45] - critical message
+2019-03-01 15:59:58,901 - ERROR - 02.py[:45] - error message
+2019-03-01 15:59:58,901 - CRITICAL - 02.py[:46] - critical message

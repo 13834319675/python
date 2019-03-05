@@ -1,0 +1,17 @@
+2019-02-28 14:42:50,431====DEBUG----This is a debug log!
+2019-02-28 14:42:50,431====INFO----This is a info log!
+2019-02-28 14:42:50,431====WARNING----This is a waining log!
+2019-02-28 14:42:50,431====ERROR----This is a erroe log!
+2019-02-28 14:42:50,431====CRITICAL----This is a critical!
+2019-02-28 14:42:50,431====DEBUG----This is a debug!
+2019-02-28 14:42:50,431====INFO----This is a info!
+2019-02-28 14:43:54,817====DEBUG----This is a debug log!
+2019-02-28 14:43:54,817====INFO----This is a info log!
+2019-02-28 14:43:54,817====WARNING----This is a waining log!
+2019-02-28 14:43:54,817====ERROR----This is a erroe log!
+2019-02-28 14:43:54,817====CRITICAL----This is a critical!
+2019-02-28 14:43:54,818====DEBUG----This is a debug log.
+2019-02-28 14:43:54,818====INFO----This is a info log.
+2019-02-28 14:43:54,818====WARNING----This is a warning log.
+2019-02-28 14:43:54,818====ERROR----This is a error log.
+2019-02-28 14:43:54,818====CRITICAL----This is a critical log.
