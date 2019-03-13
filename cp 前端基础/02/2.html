@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+    <!--from标签来划定一个区域
+    action 数据的提交地址
+    method：提交方式
+        表单提交默认是以get方式进行提交
+        get:通过url地址传输数据,数据会显示在url地址栏当中
+            传输数据有大小限制,根据浏览器的不同数据大小不同
+            相对来说不安全
+        post:数据不通过url地址传参,想读来说较安全
+            数据传输没有具体的大小限制
+            一般表单指定使用post方式提交数据
+        enctype:如果表单当中有文件上传必须添加这个属性
+            指定属性值为 "multipart/form-data" 用于文件转码-->
+    <form action="表单提交.html" method="post" enctype="multipart/form-data">
+        <!--表单控件
+        type：指定表单的类型，（普通文本，单选框 多选框）
+        必须要填写name属性-->
+        value ：设为默认值
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用的HTML标签（块元素）</title>
+</head>
+<body>
+<!--常用的有语义的块级元素 有默认样式 独占一行-->
+    <!--标题标签h1-h6-->
+    这是一个标题 <br>
+    这是另一个标题 <br>
+    <h1>这是一级标题</h1>
+    <h2>这是二级标题</h2>
+    <h3>这是三级标题</h3>
+    <h4>这是司机标题</h4>
+    <h5>这是五级标题</h5>
+    <h6>这是六级标题</h6>
+    <!--段落标签，独占一行，有固定样式-->
+    <!--br 标签 强制换行标签-->
+    <p>超文本标记语言 <br>（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。</p>
+    <p>文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。</p>
+    <p>
+        人生不相见，<br>
+        动若参与商，<br>
+        今夕复何夕，<br>
+        共此灯烛光。<br>
+    </p>
+<!--列表-->
+    <!--无需列表 ul，li-->
+    <!--注意，ul标签中，只能使用li标签-->
+    <ul>
+        <h1>我是无需列表的标题</h1>
+        <li>列表项一</li>
+        <li>列表项二</li>
+        <li>列表项三</li>
+    </ul>
+<!--有序列表 ol li 有自己的默认样式 独占一行-->
+    <!--有序列表的type属性，设置有序列表的的标记类型
+    start 设置列表从第几项开始-->
+    <ol type="1" start="5">
+        <li>这是有序列表</li>
+        <li>这是有序列表</li>
+    </ol>
+    <!--自定义列表 dl dt dd-->
+    <dl>
+        <dt>这是自定义列表</dt>
+        <dd>这是自定义列表</dd>
+        <dd>这是自定义列表</dd>
+        <dt>这是自定义列表的标题</dt>
+        <dd>这是列表标题的解释</dd>
+    </dl>
+<!--表格标签 table声明一个表格，th表头，tr表行，td表列-->
+    <!--声明一个表格-->
+    <!--
+        table 的属性： width设置单元格的总体宽度
+                      hight设置单元格的总体高度
+                      border设置单元格的边框是否显示
+                      cellpadding 设置变革当中内容距离边框的距离
+                      cellspacing 设置表格和表格之间的间隔
+            单元格合并：colspan 设置水平方向上单元格占据的宽度
+                      rowspan 设置垂直方向单元格所占的高度
+       单元格内容的对齐方式： align 水平对齐方式默认靠左显示 center right
+                           valign 设置对齐方式默认垂直居中 top bottom
+                           注意，如果给tr设置 会影响整行-给td设置会影响当前单元格
+            th 标签代表表头 默认水平居中 有加粗效果-->
+    <table border="1" cellpadding="10px" cellspacing="0" width="800px" height="700px">
+        <!--表格当中第一行-->
+        <tr height="100px">
+            <!--这是表格当中的列-->
+            <th colspan="4">
+                <h1>这是表头</h1>
+            </th>
+        </tr>
+        <tr align="center">
+            <td>这是第一行的第一列</td>
+            <td>这是第一行的第二列</td>
+            <td>这是第一行的第三列</td>
+            <td>这是第一行的第三列</td>
+        </tr>
+        <!--这是第二行-->
+        <tr align="center">
+            <td rowspan="2">这是第二行第一列</td>
+            <td>这是第二行第一第</td>
+            <td>这是第二行第三列</td>
+            <td>这是第二行第三列</td>
+        </tr>
+        <tr align="center">
+            <td>这是第三行第二列</td>
+            <td>这是第三行第三列</td>
+            <td>这是第三行第四列</td>
+        </tr>
+        <tr align="center">
+            <td>这是第四行第一列</td>
+            <td>这是第四行第二列</td>
+            <td>这是第四行第三列</td>
+            <td>这是第四行第四列</td>
+        </tr>
+        <tr>
+            <th colspan="4" align="right" valign="bottom">
+                <h4>2019年3月13日14:43:42</h4>
+            </th>
+        </tr>
+    </table>
+<hr>
+ <!--区块元素 没有默认样式(没有默认的语义) div  独占一行 一般用来划定一块区域 配合css在布局当中使用 -->
+    <div>这是一个div</div>
+<br>
+<br>
+<br>
+</body>
+</html>
