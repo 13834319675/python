@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css的三种基本选择器</title>
+    <style>
+        /*标签选择器，通过标签来设置元素的样式，影响范围最大*/
+        /*div{
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+        }*/
+        /*类选择器 通过class类来设置元素的样式，影响范围可控制，相对较小*/
+       /* #box1{   !*id设置*!
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+        }*/
+        .item1{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+        /* 注意: 基本三种选择器优先级问题
+        影响范围越大的选择器优先级最低 id>class>元素选择器 */
+        .item2{
+            width: 300px;
+            height: 300px;
+            background: yellowgreen;
+        }
+        .bg{
+            width: 111px;
+            height: 222px;
+            background: #ff9799;
+        }
+        #box2{
+            width: 1000px;
+            height: 2000px;
+            background: yellow;
+            border:10px solid chartreuse;
+        }
+        #box3{
+            width: 100px;
+            height: 100px;
+            border: 5px solid rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="item1" id="box1"></div>
+    <div class="item2 bg "></div>
+    <div class="item1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style>
+        /*hover设置鼠标悬停在元素上时的状态*/
+        .box{
+            width: 200px;
+            height: 200px;
+            background: red;
+            border: 3px solid black;
+        }
+        .box:hover{
+            /*鼠标悬停上的样式*/
+            background-color: yellow;
+            width: 220px;
+            height: 220px;
+        }
+        .box:after{
+            /*after 在元素里面的尾部插入内容*/
+            content: '我是插入的内容';
+        }
+        .box:before{
+            /*before 在元素内部的头部插入内容*/
+            content: '我是插入的头部内容！';
+        }
+    </style>
+</head>
+<body>
+    <div class="box">点我，点我！</div>
+</body>
+</html>
