@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css的内边距</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: red;
+            /*设置元素的内部间距，让元素与元素之间有一定的距离*/
+            /*注意在使用padding的时候，会改变元素的实际大小*/
+            /*padding-top: 20px ;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;*/
+            /*padding:设置四个值的时
+                第一个值代表元素顶部的内间距
+                第二个值代表的是元素右边的内间距
+                第三个值代表的是元素底边的内间距
+                第四个值代表元素左边的内间距
+            */
+            /*padding: 10px 20px 10px 20px;*/
+            /*padding: 设置两个值得时候 第一个值代表上下编剧，第二个值代表左右;*/
+            /*padding: 20px 20px;*/
+/*            padding: 设置一个值大时候 代表同时设置上下左右的外边距;*/
+            padding: 30px;
+        }
+        .in{
+            line-height: 200px;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!--内边距 指的是元素距离内部元素的间距-->
+    <div class="box">
+        <div class="in">hello word</div>
+    </div>
+</body>
+</html>
