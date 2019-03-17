@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素特点</title>
+    <style>
+        .box1{
+            /*块级元素
+            默认宽度是父级元素的100%
+            独占一行即使设置；了宽度
+            支持所有样式*/
+            height: 100px;
+            background: green;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 50px;
+        }
+        span{
+            /*內联元素：
+            不独占一行，盒子并在一起代码换行会产生间距
+            值支持部分格式：
+            不支持高度和宽度属性
+            宽度是由内容撑开
+            只支持左右maigin值*/
+            height: 100px;
+            width: 100px;
+            background:#ff9799 ;
+            /*margin: 20px;
+            padding: 20px;*/
+        }
+        input{
+            /*行内块元素
+            不独占一行，盒子并行在一行，代码换行会产生间距
+            支持所有样式
+            如果不设置宽高属性，那么他的宽高就由内容决定*/
+            width: 300px;
+            height: 100px;
+            margin: 30px;
+            padding: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box1"><b>box1</b></div>
+    这是一个<span>內联元素</span>內联元素不独占一行
+    代码换行，盒子之间会产生间距 <br>
+    这是一个行内快元素，<input type="text"> 內联快元素不独占一行
+</body>
+</html>
