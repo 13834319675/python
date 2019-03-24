@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器</title>
+</head>
+<body>
+<script>
+    /*
+    * 单次定时器 setTimeout
+    *   格式 setTimeout(回调函数 等待时间(毫秒))
+    *   指定等待时间之后执行热定的功能(代码)
+    *   只执行一次
+    *   清楚单次定时器 clearTimeout(要清楚的定时器的标识符)
+    * 循环定时器 setInterval
+    *   格式 setInterval(回调函数,回调时间(毫秒))
+    *   间隔指定时间执行一次指定的代码块
+    *   清楚定时器.启动定时器之后,会返回一个标识符,通过这个标识符来清楚定时器
+    *   clearInterval(要清楚的多次定时器的标识符)*/
+    function demo(){
+        console.log('定时器执行')
+    }
+    setTimeout(function () {
+        console.log('单次定时器启动了')
+    },3000);
+    setTimeout(demo,2000);
+
+    //循环定时器
+
+    var i=0;
+    var set=setInterval(function () {
+        console.log('定时器再次启动了');
+        i++;
+        //方法二 用if设置循环的次数
+        /*if (i==10){
+            clearInterval(set);
+            console.log('定时器清除了')
+        }*/
+    },2000);
+    // 常用循环定时器和单次定时器配合使用
+    // 用单次定时器设定循环定时器的最大执行时间 停止循环定时器的循
+    console.log(set);
+    setTimeout(function () {
+        //清除定时器启动
+        console.log('清楚定时器启动');
+        clearInterval(set)
+    },10000);
+</script>
+</body>
+</html>
