@@ -4,6 +4,6 @@
 
 window.onload=function () {
     //通过元素的id属性获取元素对象
-    var odiv=document.getElementById('item1')
+    var odiv=document.getElementById('item1');
     console.log(odiv)
 };

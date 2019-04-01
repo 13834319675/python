@@ -20,7 +20,7 @@ def handle_exception():
 
 he = handle_exception()
 next(he)
-he.send(10) # recived x: 10
+he.send(10) # recived x: 10 js
 he.send(20) # recived x: 20
 
 he.throw(DemoException) # run demo exception
