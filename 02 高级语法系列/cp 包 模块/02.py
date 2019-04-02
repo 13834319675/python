@@ -4,7 +4,7 @@
 import importlib
 
 # 详单与导入一个叫做01的模块，并把导入的模块赋值给了tuling
-tuling = importlib.import_module("01")
+tuling = importlib.import_module("cp 01")
 
 stu = tuling.Student()
 stu.say()
