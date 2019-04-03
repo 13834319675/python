@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>enent事件对象</title>
+    <script src="jquery-1.8.3.min.js"></script>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        //event事件对象 通过此对象可以获取元素单击的位置
+        $('div').click(function (e) {
+            console.log('单击事件触发了');
+            //获取元素相对于窗口的位置
+            console.log(e.clientX,e.clientY)
+        });
+        //通过事件对象来时时获取鼠标的位置
+        $(window).mousemove(function (e) {
+            console.log(e.clientX,e.clientY)
+        });
+    </script>
+</body>
+</html>

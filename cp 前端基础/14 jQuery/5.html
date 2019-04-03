@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素的默认行为</title>
+    <script src="jquery-1.8.3.min.js"></script>
+</head>
+<body>
+    <a href="http://www.baidu.com" target="_blank">百度</a>
+    <script>
+        //有些元素自身带有默认行为,比如a标签,单击时跳转,这就是元素的默认行为
+        $('a').click(function () {
+            alert('单击事件触发了')
+            return false;
+        });
+    </script>
+</body>
+</html>
