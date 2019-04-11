@@ -147,4 +147,25 @@
         - mode.firstNode:得到一个节点.等价于mode.childNodes[0]
         - mode.attribute[tage_name]
         - 案例01
-   
+    -- etree 
+        - 以树形结构来表示xml
+        - root.getiterator:得到相应的可迭代的node集合
+        - root.iter
+        - find(node_name):查找指定node_name的节点,返回一个node
+        - root.findall(node_name):返回多个node_name的节点
+        - node.tag: node对应的tagename
+        - node.text:node的文本值
+        - node.attrib： 是node的属性的字典类型的内容
+        - node.tag 获取标签 node.text获取文本
+        - node.attrib.keys 获取标签属性 键值对
+        - 案例v02
+        
+
+    ele_stu = root.findall("Student")
+    print(type(ele_stu))
+    for ele in ele_stu:
+        print("{0}--{1}".format(ele.tag,ele.text))
+        for sub in ele.getiterator():
+            if sub.tag == "Name":
+                if "Other" in sub.attrib.keys():
+                    print(sub.attrib["Other"])
