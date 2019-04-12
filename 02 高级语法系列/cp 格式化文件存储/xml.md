@@ -169,3 +169,15 @@
             if sub.tag == "Name":
                 if "Other" in sub.attrib.keys():
                     print(sub.attrib["Other"])
+                    
+                    
+- xml文件写入
+    - 更改
+        - ele.set:修改属性
+        - ele.append: 添加子元素
+        - ele.remove:删除元素
+        - 案例 v0300
+    - 生成创建
+        - SubElement, 案例v04
+        - minidom 写入， 案例v05
+        - etree创建， 案例v06
