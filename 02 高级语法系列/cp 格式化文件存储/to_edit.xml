@@ -7,7 +7,7 @@
     <Student>
         <Name Other="&#20182;&#26159;&#35841;" test="zhsngsanzhsngsanzhsngsan">zhsngsan</Name>
         <Age Detail="The yongest boy in class">14</Age>
-    <ADDer a="b">&#25105;&#21152;&#30340;</ADDer><year data="2019">&#20170;&#24180;&#26159;</year></Student>
+    <ADDer a="b">&#25105;&#21152;&#30340;</ADDer><year data="2019">&#20170;&#24180;&#26159;</year><ADDer a="b">&#25105;&#21152;&#30340;</ADDer><year data="2019">&#20170;&#24180;&#26159;</year></Student>
     <Student>
         <Name test="ListListList">List</Name>
         <Age>19</Age>
