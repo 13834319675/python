@@ -19,3 +19,4 @@ class Ticket():
     def cal_price(self,nun):
         return self.exp+self.inc*self.discount+nun
 
+tk =
