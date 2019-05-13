@@ -13,96 +13,82 @@ Kinter项目实战-屏保
         - 颜色，大小，多少， 运动方向，变形等随机
         - 球能动，可以被调用
 """
-import random
-import tkinter as tk
+from random import randint
+from tkinter import *
 class Ball():
 
-    def __init__(self,canvas,screenwidth,screenheight):
-        self.canvas=canvas
-        # 球的出生位置
-        self.xpos = random.randint(10,int(screenwidth)-20)
-        self.ypos = random.randint(10,int(screenheight)-20)
-        # 球的运动速度
-        self.xvelocity = random.randint(4,20)
-        self.yvelocity = random.randint(4,20)
-        # 球的大小
-        # 设定球的半径
-        self.radius = random.randint(20,70)
-        # 初始化长和宽
-        self.screenwidth = screenheight
-        self.screenheight = screenheight
+    def __init__(self,canvas,scrnwidth,scrnheight):
+        self.canvas = canvas
+        self.scrnwidth = scrnwidth
+        self.scrnheight = scrnheight
+
+        # 球的坐标
+        self.xpos = randint(10,int(scrnwidth))
+        self.ypos = randint(10,int(scrnheight))
+
+        # 球的速度
+        self.x_move = randint(10,20)
+        self.y_move = randint(15,25)
+
         # 球的颜色
-        c = lambda :random.randint(0,255)
+        c = lambda :randint(0,255)
         self.color = "#%02x%02x%02x"%(c(),c(),c())
-    def creat_ball(self):
-
-        x1 = self.xpos-self.radius
-        x2 = self.xpos+self.radius
-        y1 = self.ypos-self.radius
-        y2 = self.ypos+self.radius
-
-        self.item = self.canvas.create_oval(x1,y1,x2,y2,fill = self.color,
-                                            outline =self.color )
+        # 球的半径
+        self.radius = randint(20,70)
+    def creat_canvas(self):
+        # 球的坐标
+        x1 = self.radius+self.xpos
+        x2 = self.radius-self.xpos
+        y1 = self.radius-self.ypos
+        y2 = self.radius+self.ypos
+        self.ovel = self.canvas.creat_oval(x1,y1,x2,y2,fill=self.color,
+                                           outline=self.color)
+        # 球的移动
     def move_ball(self):
 
-        # 移动球的时候，需要控制球的方向
-        # 每次移动后，球都有一个新的坐标
-        # 球的新位置等于原来的位置加上球的移动速递
-        self.xpos = self.xpos+self.xvelocity
-        self.ypos = self.ypos+self.yvelocity
-        # 普安段球是否撞墙
-        if  self.xpos+self.radius >= self.screenwidth:
-            self.xvelocity = -self.xvelocity
-        if self.xpos-self.radius <= self.screenwidth:
-            self.xvelocity = self.xvelocity
-        if self.ypos-self.radius<=self.screenheight:
-            self.yvelocity = -self.yvelocity
-        if self.ypos+self.radius >= self.screenheight:
-            self.yvelocity = self.yvelocity
+        self.xpos +=self.x_move
+        self.ypos +=self.y_move
 
-        self.canvas.move(self.item,self.xvelocity,self.yvelocity)
+        if self.xpos >= self.scrnwidth - self.radius:
+            self.x_move = -self.x_move
+        if self.ypos >= self.scrnheight - self.radius:
+            self.y_move = -self.y_move
+        if self.xpos < self.radius:
+            self.x_move = abs(self.x_move)
+        if self.ypos < self.radius:
+            self.y_move = abs(self.y_move)
+        self.canvas.move(self.ovel,self.x_move,self.y_move)
 
 class ScreenSaver():
-    balls = list()
+    balls = []
     def __init__(self):
 
-        # 每次启动球的数量随机
-        self.num_balls = random.randint(6,20)
-        # 设定屏保窗口大小
-
-        self.root = tk.Tk()
-        # 取消边框
-        self.root.overrideredirect(1)
-        # 任何鼠标移动都可以取消
-        self.root.bind("<Motion>",self.myquit)
-        self.root.bind("<Key>",self.myquit)
-
-        # 得到屏幕大小规格
-        self.w = self.root.winfo_width()
-        self.h = self.root.winfo_height()
-        #创建画布,包括画布的归属规格
-        self.canvas = tk.Canvas(self.root,width=self.w,height=self.h)
+        self.ball_nums = randint(20,40)
+        self.window = Tk()
+        self.window.overrideredirect(True)
+        self.winth = self.window.winfo_width()
+        self.height = self.window.winfo_height()
+        self.window.attributes("-alpha",0.3)
+        # 绑定事件
+        self.window.bind("<Key>",self.myquit)
+        self.window.bind("<Any-Button>",self.myquit)
+        self.window.bind("<Motion>",self.myquit)
+        self.canvas = Canvas(self.window,width=self.winth,height=self.height,
+                                bg = "#FFFFFF")
         self.canvas.pack()
-
-        # 在画布上画球
-        for i in range(0,self.num_balls):
-            ball = Ball(self.canvas,screenwidth=self.w,screenheight=self.h)
-            ball.creat_ball()
+        for i in range(0,self.ball_nums):
+            ball = Ball(self.canvas,scrnwidth=self.winth,scrnheight=self.height)
+            ball.creat_canvas()
             self.balls.append(ball)
-        self.Run_Sreen_Saver()
-        self.root.mainloop()
-
-    # 让屏保动起来
-
-    def Run_Sreen_Saver(self):
-        for ba1l in self.balls:
-            ba1l.move_ball()
-        # after是200毫秒后启动一个函数，需要启动的函数是第二个参数
-        self.canvas.after(200,self.Run_Sreen_Saver)
-
-    def myquit(self):
-        # 销毁退出
-        self.root.destroy()
-
-if __name__ == '__main__':
+    def run_screensaver(self):
+        for ball in self.balls:
+            ball.move_ball()
+        self.canvas.after(20,self.myquit)
+    def myquit(self,even):
+        self.window.destroy()
+def main():
     ScreenSaver()
+
+
+if __name__=='__main__':
+    main()

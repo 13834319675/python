@@ -58,7 +58,7 @@ class Screensaver():
         self.win.bind('<Any-Button>', self.exit_screensaver)
         self.win.bind('<Motion>', self.exit_screensaver)
         self.win.bind("<Key>",self.exit_screensaver)
-        self.canvas = Canvas(self.win, width=self.width, height=self.height, bg='#00FFFF')
+        self.canvas = Canvas(self.win, width=self.width, height=self.height, bg='#FFFFFF')
         self.canvas.pack()
 
         for i in range(0,self.ball_nums):
