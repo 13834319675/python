@@ -28,10 +28,10 @@ class Food():
         '''
         self.Snk_list = Snk_list
 
-        s1 = set(self.Snk_list)
-        s = canvas_set.difference(s1)
+        s1 = set(self.Snk_list) # 生成集合
+        s = canvas_set.difference(s1)  # 集合的差集
 
-        self.Food_list = list(s)
+        self.Food_list = list(s) # 在蛇和画布的交集
         self.Food_point = random.choice(self.Food_list)  # 随机生成Food点
 
         self.make_point()
