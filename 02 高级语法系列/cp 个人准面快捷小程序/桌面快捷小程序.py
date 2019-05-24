@@ -1,4 +1,5 @@
 import tkinter as tk
+import re
 
 # 计算器功能
 def calculator():
@@ -9,13 +10,22 @@ def calculator():
     # 计算长度设置
     def calculation(nun):
         list_nun=[1,2,3,4,5,6,7,8,9,0]
-        inp=[]
+        operator=["＋","－","×","÷","＝"]
+        res = get_res.get()
         content = get_enter.get()
+
         if nun in str(list_nun):
-            content = content+nun
+            content=content+nun
             get_enter.set(content)
-
-
+            if content == "520":
+                get_res.set("我爱你")
+        if nun in str(operator):
+            content = content + nun
+            get_enter.set(content)
+            if nun == operator[4]:
+                nun1 = content[:-1]
+                rest = int(nun1)
+                get_res.set(rest)
 
     cal_root = tk.Toplevel(window)
     cal_root.title("私人订制计算器")
@@ -38,7 +48,7 @@ def calculator():
     cal_canvas.create_window(140,30,height=30,width=220,window=cal_enter_input)
     ##结果框
     get_res = tk.StringVar()
-    get_res.set(0)
+    get_res.set("")
     cal_enter_res=tk.Entry(cal_root,textvariable=get_res,font="微软雅黑")
     cal_enter_res.pack()
     cal_canvas.create_window(140,70,height=30,width=220,window=cal_enter_res)
@@ -50,13 +60,13 @@ def calculator():
     but_c = tk.Button(cal_frame,text="C",width=4,height=1,
                       font="微软雅黑",command=clear)
     but_c.place(x=10,y=10)
-    but_d = tk.Button(cal_frame,text="÷",width=4,height=1,
+    but_d = tk.Button(cal_frame,text="/",width=4,height=1,
                       font="微软雅黑",command=lambda: calculation("÷"))
     but_d.place(x=60,y=10)
-    but_b=tk.Button(cal_frame,text="×",width=4,height=1,
+    but_b=tk.Button(cal_frame,text="*",width=4,height=1,
                     font="微软雅黑",command=lambda: calculation("×"))
     but_b.place(x=110,y=10)
-    but_r=tk.Button(cal_frame,text="－",width=4,height=1,
+    but_r=tk.Button(cal_frame,text="-",width=4,height=1,
                     font="微软雅黑",command=lambda: calculation("－"))
     but_r.place(x=160,y=10)
 
@@ -66,7 +76,7 @@ def calculator():
     but_0 = tk.Button(cal_frame,text="0",width=8,height=1,font="微软雅黑",command=lambda: calculation("0")).place(x=10,y=210)
     but_8 = tk.Button(cal_frame,text="8", width=4,height=1, font="微软雅黑",command=lambda: calculation("8")).place(x=60, y=60)
     but_9 = tk.Button(cal_frame,text="9",width=4,height=1,font="微软雅黑",command=lambda: calculation("9")).place(x=110,y=60)
-    but_a = tk.Button(cal_frame,text="＋",width=4,height=3,font="微软雅黑",command=lambda: calculation("＋")).place(x=160,y=68)
+    but_a = tk.Button(cal_frame,text="+",width=4,height=3,font="微软雅黑",command=lambda: calculation("＋")).place(x=160,y=68)
     but_5 = tk.Button(cal_frame,text="5",width=4,height=1,font="微软雅黑",command=lambda: calculation("5")).place(x=60,y=110)
     but_6 = tk.Button(cal_frame,text="6",width=4,height=1,font="微软雅黑",command=lambda: calculation("6")).place(x=110,y=110)
     but_2 = tk.Button(cal_frame, text="2", width=4, height=1, font="微软雅黑",command=lambda: calculation("2")).place(x=60, y=160)
@@ -82,7 +92,7 @@ def calculator():
 
 # 图形界面框架结构
 window = tk.Tk()
-window.title("鹏程万里")
+window.title("鸿蒙桌面管理系统")
 window.resizable(width=False,height=False)
 window.geometry("280x360")
 window.winfo_screenheight()
