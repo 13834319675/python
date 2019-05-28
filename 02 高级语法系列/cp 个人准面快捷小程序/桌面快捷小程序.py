@@ -48,7 +48,7 @@ def calculator():
         print(str(list))
 
     cal_root = tk.Toplevel(window)
-    cal_root.title("私人订制计算器")
+    cal_root.title("比较简陋的计算器")
     cal_root.winfo_screenmmwidth()
     cal_root.winfo_screenheight()
     cal_root.geometry("280x360")
@@ -109,7 +109,12 @@ def calculator():
     cal_root.bind_all("<Key>", key)
     cal_root.mainloop()
 
-
+def notebook():
+    note = tk.Toplevel(window)
+    note.resizable(width=False,height=False)
+    note.geometry("280x360")
+    note.title("比较简陋的记事本")
+    note.mainloop()
 
 # 图形界面框架结构
 window = tk.Tk()
@@ -133,7 +138,7 @@ canvas.create_window(35,40,height=60,width=60,window=calcu_Button)
 
 #记事本图标
 note_img = tk.PhotoImage(file="记事本.gif")
-note_Button = tk.Button(canvas,image=note_img)
+note_Button = tk.Button(canvas,image=note_img,command=notebook)
 note_Button.pack()
 canvas.create_window(100,40,height=60,width=60,window=note_Button)
 
