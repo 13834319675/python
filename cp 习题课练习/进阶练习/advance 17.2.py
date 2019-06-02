@@ -9,8 +9,8 @@ file2 = input("请输入第二个文件:")
 differ = []
 count = 1
 def file_compare(file1,file2):
-    f1 = open(file1,"w")
-    f2 = open(file2,"w")
+    f1 = open(file1)
+    f2 = open(file2)
     global count
     global differ
     for f1_readline in f1:
@@ -28,7 +28,8 @@ dif = file_compare(file1,file2)
 if len(dif) == 0:
     print("两个文件内容完全相同")
 else:
-    print("两个文件有%s处不同"%len(dif))
+    print("两个文件有%s处不同"%int(dif))
     for each in dif:
         print("%s处不一样"%dif)
+
 
