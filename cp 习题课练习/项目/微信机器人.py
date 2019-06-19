@@ -1,6 +1,8 @@
 coding = "utf-8"
 import requests
 import itchat
+import random
+import time
 # 去图灵机器人官网注册后会生成一个apikey，可在个人中心查看
 KEY = '666136f836ec4379b57216677ca19102'
 def get_response(msg):
@@ -27,5 +29,8 @@ def tuling_reply(msg):
     return reply or defaultReply
 # 使用热启动，不需要多次扫码
 itchat.auto_login(hotReload=True)
-itchat.run()
+if __name__ == '__main__':
+    times = random.randint(2,5)
+    time.sleep(int(times))
+    itchat.run()
 
