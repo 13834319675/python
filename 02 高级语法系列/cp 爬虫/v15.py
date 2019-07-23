@@ -1,3 +1,4 @@
+# cookie的保存-FileCookieJar，
 from urllib import request,parse
 from http import cookiejar
 
