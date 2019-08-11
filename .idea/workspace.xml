@@ -2,59 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2393e574-0ba5-43db-b0af-a165e5ae035e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/note2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/note3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/note4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/note5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/note6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v37.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/今日头条.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/快照.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/航母.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/航母2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/百度贴吧.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/note2.md" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v01.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v02.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v03.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v04.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v05.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v06.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v07.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v08.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v09.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v10.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v11.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v12.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v13.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v14.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v15.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v16.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v17.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v18.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v19.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v20.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v21.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v22.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v23.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v23.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v24.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v25.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v26.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v26.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v27.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v29.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v29.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v30.html" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v30.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v31.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v32.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v33.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v34.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v34.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v35.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v35.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v36.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/基础/v36.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/v37.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,12 +59,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>10,2</find>
-      <find>he</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -139,6 +93,7 @@
       <recent name="D:\python\02 高级语法系列" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\02 高级语法系列\cp 爬虫\练习\01 百度贴吧" />
       <recent name="D:\python\02 高级语法系列\cp 爬虫\基础" />
       <recent name="D:\python\02 高级语法系列\cp Tkinter" />
       <recent name="D:\python\02 高级语法系列" />
@@ -157,74 +112,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.v37">
-    <configuration name="v05" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\02 高级语法系列\cp 爬虫\基础\v05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="JavaScript Debug.2.html">
+    <configuration name="0.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/0.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="v06" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\02 高级语法系列\cp 爬虫\基础\v06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="v35" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\02 高级语法系列\cp 爬虫\基础\v35.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="第9页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python/02 高级语法系列/cp 爬虫/练习/01 百度贴吧/第9页.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="v36" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="01 百度贴吧" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,12 +130,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\02 高级语法系列\cp 爬虫\基础\v36.py" />
+      <option name="SCRIPT_NAME" value="D:\python\02 高级语法系列\cp 爬虫\练习\01 百度贴吧\百度贴吧.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2.html" />
+        <item itemvalue="Python.01 百度贴吧" />
+        <item itemvalue="JavaScript Debug.第9页.html" />
+        <item itemvalue="JavaScript Debug.0.html" />
         <item itemvalue="Python.v37" />
-        <item itemvalue="Python.v35" />
-        <item itemvalue="Python.v36" />
-        <item itemvalue="Python.v05" />
-        <item itemvalue="Python.v06" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +280,7 @@
       <workItem from="1563284004919" duration="1028000" />
       <workItem from="1563804562199" duration="251000" />
       <workItem from="1565513258352" duration="266000" />
-      <workItem from="1565513910331" duration="6801000" />
+      <workItem from="1565513910331" duration="13766000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1551799769268</created>
@@ -580,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562599077160</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add files via upload">
+      <created>1565530703665</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1565530703665</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,6 +568,7 @@
     <SUITE FILE_PATH="coverage/python$01.coverage" NAME="01 Coverage Results" MODIFIED="1558362083998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp tk 飞机大战/v1" />
     <SUITE FILE_PATH="coverage/python$random.coverage" NAME="random Coverage Results" MODIFIED="1557586594388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProgramData/Anaconda3/Lib" />
     <SUITE FILE_PATH="coverage/python$advance_13.coverage" NAME="advance 13 Coverage Results" MODIFIED="1558951140935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 百度贴吧 Coverage Results" MODIFIED="1565537838763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧" />
     <SUITE FILE_PATH="coverage/python$v02.coverage" NAME="v02 Coverage Results" MODIFIED="1561470660482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
     <SUITE FILE_PATH="coverage/python$07.coverage" NAME="07 Coverage Results" MODIFIED="1555165749423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
     <SUITE FILE_PATH="coverage/python$advance_18_3.coverage" NAME="advance 18.3 Coverage Results" MODIFIED="1559400125072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
