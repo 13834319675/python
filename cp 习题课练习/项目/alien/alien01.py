@@ -13,12 +13,12 @@ class Ship():
         """初始化飞机并设置具体位置"""
         self.screen = screen
         # 加载飞机图片并取得其外接矩形
-        self.image = pygame.image.load("img/bigplane.gif")
+        self.image = pygame.image.load("img/hero.gif")
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         # 将每艘飞船都放在屏幕的正中央
-        self.rect_centerx = self.screen_rect.centery
-        self.rect_bottom = self.screen_rect.bottom
+        self.rect.centerx = self.screen_rect.centerx
+        self.rect.bottom = self.screen_rect.bottom
 
     def blitem(self):
         """在指定为位置制造飞船"""
