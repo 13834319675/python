@@ -1,6 +1,6 @@
 import pygame
 import sys
-
+from pygame.sprite import Sprite,Group
 class Settings():
     def __init__(self):
         self.screen_width = 1066
@@ -8,6 +8,11 @@ class Settings():
         self.bg_color = (230,230,230)
         # 设置飞船的移动量
         self.ship_speed_factor = 1.5
+        # 设置子弹的属性
+        self.bullet_speed_factor = 1
+        self.buller_width = 3
+        self.buller_height = 15
+        self.buller_color = 60,60,60
 
 class Ship():
     def __init__(self,screen,Setting):
@@ -40,14 +45,41 @@ class Ship():
             self.center +=  self.Setting.ship_speed_factor
         if self.moving_left and self.rect.left >0:
             self.center -= self.Setting.ship_speed_factor
-        if self.moving_bottom and self.rect.bottom < self.screen_rect.bottom:
-            self.center += self.Setting.ship_speed_factor
 
 
         # 更新
         self.rect.centerx = self.center
     def blitem(self):
         self.screen.blit(self.image,self.rect)
+# 创建子弹类
+class Buller(Sprite):
+    """一个队飞机发射子弹管理的类"""
+    def __init__(self,setting,screen,ship):
+        """在飞船所处的位置建立一个子弹对象"""
+        super().__init__()
+        self.screen = screen
+
+        # 在(0,0)处创建一个子弹对象,并设置正确的位置
+        self.rect = pygame.Rect(0,0,setting.buller_width,
+                                setting.buller_height)
+        # 子弹的初始位置等于飞船的初始位置的顶部
+        self.rect.centerx = ship.rect.centerx
+        self.rect.top = ship.rect.top
+        # 存储用小数表示子弹的位置
+        self.y = float(self.rect.y)
+        # 颜色和速度
+        self.color = setting.buller_color
+        self.speed_factor = setting.bullet_speed_factor
+
+    def update(self):
+        """向上移动子弹 更新子弹所在的位置的小数值"""
+        self.y -= self.speed_factor
+        #更新表示子弹的rect
+        self.rect.y = self.y
+
+    def draw_buller(self):
+        """在屏幕上绘制子弹"""
+        pygame.draw.rect(self.screen,self.color,self.rect)
 
 def chect_events():
     for evevt in pygame.event.get():
@@ -84,12 +116,18 @@ def run_game():
     screen = pygame.display.set_mode((setting.screen_width,setting.screen_height))
     pygame.display.set_caption("alien")
     ship = Ship(screen,setting)
+    bullers = Group()
+    buller = Buller(setting,screen,ship)
+
     while True:
+
         chect_events()
         screen.fill(setting.bg_color)
         chect_event(ship)
         ship.blitem()
         ship.update()
+        buller.update()
+        buller.draw_buller()
         pygame.display.flip()
 
 if __name__ == '__main__':
