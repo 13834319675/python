@@ -2,7 +2,7 @@ from random import choice
 import matplotlib.pyplot as plt
 
 class RandomWalk():
-    def __init__(self,num_points=5000):
+    def __init__(self,num_points=50000):
         self.x_values = [0]
         self.y_values = [0]
         self.num_points = num_points
@@ -32,7 +32,7 @@ while True:
     rw.fill_waik()
     # 随机漫步的颜色映射
     point_numbers = list(range(rw.num_points))
-    plt.scatter(rw.x_values,rw.y_values,s = 10,
+    plt.scatter(rw.x_values,rw.y_values,s = 1,
                 c = point_numbers,cmap=plt.cm.Blues,
                 edgecolors="none",)
     # 设置起点的终点
@@ -46,6 +46,13 @@ while True:
     plt.tick_params(axis="both",which = "major", labelsize = 10)
     plt.savefig("随机漫步{}.png".format(n))
     plt.show()
+    # 隐藏坐标轴
+    plt.axes().get_xaxis().set_visible(False)
+    plt.axes().get_yaxis().set_visible(False)
+
+    # 设置窗口的尺寸
+    plt.figure(figsize=(10,6))
+
     keep_runing = input("Make another walk? (y/n)?")
     if keep_runing == "y" or keep_runing == "Y":
         break
