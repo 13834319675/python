@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js练习7</title>
+</head>
+<h2>JavaScript <b>this</b> 关键字</h2>
+
+<p>实例中，<b>this</b> 指向了 <b>person</b> 对象。</p>
+<p>因为 person 对象是 fullName 方法的所有者。</p>
+
+<p id="done"></p>
+
+<script>
+    var person = {
+        fristname : "chen",
+        lastname : "peng",
+        old : 20,
+        fullName : function (){
+            return this.fristname + "" + this.lastname + "的年龄" + this.old
+        }
+    }
+    document.getElementById("done").innerHTML = person.fullName()
+</script>
+</body>
+</html>

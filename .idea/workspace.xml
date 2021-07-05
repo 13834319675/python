@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2393e574-0ba5-43db-b0af-a165e5ae035e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cp 习题课练习/项目/Antithetical couplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js 幻灯片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网页自动化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cp 习题课练习/项目/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/cp 习题课练习/项目/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用API/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/使用API/api.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,30 +49,24 @@
     <SUITE FILE_PATH="coverage/python$18.coverage" NAME="18 Coverage Results" MODIFIED="1552403925762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 多线程" />
     <SUITE FILE_PATH="coverage/python$07.coverage" NAME="07 Coverage Results" MODIFIED="1552397760570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 协程" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="python" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Jupyter Notebook" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -58,17 +78,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="9dfc5167-9e59-45b2-ac28-5ba7f596ea89" />
   <component name="ProjectId" id="1PGvSRXKQBE6InwgpJNI2ilwy0A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ProgramData/Anaconda3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,34 +106,31 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python1" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python1" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python\02 高级语法系列\cp 爬虫\练习\01 百度贴吧" />
-      <recent name="D:\python\02 高级语法系列\cp 爬虫\基础" />
-      <recent name="D:\python\02 高级语法系列\cp Tkinter" />
-      <recent name="D:\python\02 高级语法系列" />
-      <recent name="D:\python\cp 前端基础\13 jQuery" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\PycharmProjects\python\使用API" />
       <recent name="D:\python\cp 习题课练习\进阶练习" />
       <recent name="D:\python\02 高级语法系列\cp Tkinter" />
       <recent name="D:\python\02 高级语法系列" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\PycharmProjects\python" />
+      <recent name="D:\python\02 高级语法系列\cp 爬虫\练习\01 百度贴吧" />
+      <recent name="D:\python\02 高级语法系列\cp 爬虫\基础" />
+      <recent name="D:\python\02 高级语法系列\cp Tkinter" />
+      <recent name="D:\python\02 高级语法系列" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.微信机器人">
-    <configuration name="微信机器人" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.网页自动化">
+    <configuration name="网页自动化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp 习题课练习/项目" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp 习题课练习/项目/微信机器人.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网页自动化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Antithetical couplet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp 习题课练习/项目" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp 习题课练习/项目/Antithetical couplet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="alien01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,12 +182,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/使用API" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp 习题课练习/项目/alien/alien01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/使用API/api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="alien02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pygal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +204,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/使用API" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp 习题课练习/项目/alien/alien02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/使用API/pygal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,38 +218,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in D:/Users/Administrator/PycharmProjects/python/speech.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp 习题课练习/项目/alien/settings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/speech.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.微信机器人" />
-        <item itemvalue="Python.Antithetical couplet" />
-        <item itemvalue="Python.settings" />
-        <item itemvalue="Python.alien02" />
-        <item itemvalue="Python.alien01" />
+        <item itemvalue="Python.网页自动化" />
+        <item itemvalue="Python.api" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.pygal" />
+        <item itemvalue="Python tests.pytest in D:/Users/Administrator/PycharmProjects/python/speech.py" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\cp930\AppData\Roaming\Subversion</configuration>
   </component>
@@ -355,6 +375,85 @@
       <workItem from="1590481970965" duration="333000" />
       <workItem from="1590981876969" duration="631000" />
       <workItem from="1591666918347" duration="680000" />
+      <workItem from="1594177671332" duration="151000" />
+      <workItem from="1595989636103" duration="3447000" />
+      <workItem from="1596012843705" duration="410000" />
+      <workItem from="1596074782150" duration="2098000" />
+      <workItem from="1600653546483" duration="125000" />
+      <workItem from="1600654488125" duration="966000" />
+      <workItem from="1600655586637" duration="9150000" />
+      <workItem from="1600738082480" duration="6038000" />
+      <workItem from="1600932679796" duration="3852000" />
+      <workItem from="1601258441952" duration="8884000" />
+      <workItem from="1601347441186" duration="5149000" />
+      <workItem from="1602469595508" duration="476000" />
+      <workItem from="1602470290367" duration="7053000" />
+      <workItem from="1602749100034" duration="3366000" />
+      <workItem from="1603089643137" duration="587000" />
+      <workItem from="1603096222209" duration="1596000" />
+      <workItem from="1604023831376" duration="875000" />
+      <workItem from="1604283027926" duration="1592000" />
+      <workItem from="1604285269837" duration="719000" />
+      <workItem from="1604295578771" duration="1420000" />
+      <workItem from="1604297550108" duration="1665000" />
+      <workItem from="1604299940887" duration="521000" />
+      <workItem from="1604300629804" duration="1573000" />
+      <workItem from="1604302567588" duration="1653000" />
+      <workItem from="1604304486161" duration="1494000" />
+      <workItem from="1604306283518" duration="590000" />
+      <workItem from="1604370597836" duration="1066000" />
+      <workItem from="1604382331848" duration="537000" />
+      <workItem from="1604383063448" duration="404000" />
+      <workItem from="1604383891368" duration="1652000" />
+      <workItem from="1604385844342" duration="1531000" />
+      <workItem from="1604389215655" duration="1652000" />
+      <workItem from="1604391027446" duration="1735000" />
+      <workItem from="1604642940768" duration="574000" />
+      <workItem from="1604975060372" duration="1722000" />
+      <workItem from="1604976987761" duration="1261000" />
+      <workItem from="1605150439868" duration="1726000" />
+      <workItem from="1605152348091" duration="1402000" />
+      <workItem from="1605507147294" duration="1877000" />
+      <workItem from="1605511705482" duration="1747000" />
+      <workItem from="1605513589404" duration="1746000" />
+      <workItem from="1605515505778" duration="990000" />
+      <workItem from="1605596187235" duration="955000" />
+      <workItem from="1605598117916" duration="2080000" />
+      <workItem from="1605666511106" duration="1156000" />
+      <workItem from="1605668422376" duration="9111000" />
+      <workItem from="1607480009172" duration="591000" />
+      <workItem from="1608518876820" duration="635000" />
+      <workItem from="1608521573244" duration="684000" />
+      <workItem from="1608537726341" duration="586000" />
+      <workItem from="1608618745198" duration="1734000" />
+      <workItem from="1608620587571" duration="1518000" />
+      <workItem from="1608622435192" duration="1801000" />
+      <workItem from="1608624316495" duration="1851000" />
+      <workItem from="1609120225212" duration="699000" />
+      <workItem from="1609124159016" duration="1685000" />
+      <workItem from="1609919903061" duration="654000" />
+      <workItem from="1609920699258" duration="625000" />
+      <workItem from="1610438562869" duration="1195000" />
+      <workItem from="1612750545473" duration="292000" />
+      <workItem from="1612750984049" duration="14775000" />
+      <workItem from="1613789125855" duration="1334000" />
+      <workItem from="1617781828951" duration="1198000" />
+      <workItem from="1617868086107" duration="1298000" />
+      <workItem from="1617870804000" duration="390000" />
+      <workItem from="1617871494964" duration="211000" />
+      <workItem from="1618885681841" duration="746000" />
+      <workItem from="1624327072559" duration="1286000" />
+      <workItem from="1624329900410" duration="592000" />
+      <workItem from="1624520994703" duration="592000" />
+      <workItem from="1624587353676" duration="678000" />
+      <workItem from="1624849766866" duration="7539000" />
+      <workItem from="1624950628836" duration="1709000" />
+      <workItem from="1624952492210" duration="897000" />
+      <workItem from="1624955522516" duration="191000" />
+      <workItem from="1625034807774" duration="1424000" />
+      <workItem from="1625037328003" duration="274000" />
+      <workItem from="1625107962250" duration="7646000" />
+      <workItem from="1625465067730" duration="6448000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1551799769268</created>
@@ -584,7 +683,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -626,17 +725,15 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
     <option name="RECENT_FILTERS">
       <map>
@@ -652,6 +749,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -659,56 +757,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add files via upload" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$03.coverage" NAME="03 Coverage Results" MODIFIED="1555073461959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
-    <SUITE FILE_PATH="coverage/python$advance_17_1.coverage" NAME="advance 17.1 Coverage Results" MODIFIED="1559391637001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$allen_invasion.coverage" NAME="allen_invasion Coverage Results" MODIFIED="1566311498937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
-    <SUITE FILE_PATH="coverage/python$alien01.coverage" NAME="alien01 Coverage Results" MODIFIED="1566743417446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
-    <SUITE FILE_PATH="coverage/python$advance_20_2.coverage" NAME="advance 20.2 Coverage Results" MODIFIED="1559484963719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$v36.coverage" NAME="v36 Coverage Results" MODIFIED="1565515211191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$advance_18_2.coverage" NAME="advance 18.2 Coverage Results" MODIFIED="1559396340279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$Antithetical_couplet.coverage" NAME="Antithetical couplet Coverage Results" MODIFIED="1587711311393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目" />
-    <SUITE FILE_PATH="coverage/python$basic_01.coverage" NAME="basic 01 Coverage Results" MODIFIED="1555515439457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题练习" />
-    <SUITE FILE_PATH="coverage/python$basic_07.coverage" NAME="basic 07 Coverage Results" MODIFIED="1556025467077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
-    <SUITE FILE_PATH="coverage/python$advance_19_2.coverage" NAME="advance 19.2 Coverage Results" MODIFIED="1559482268923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$advance_18_1.coverage" NAME="advance 18.1 Coverage Results" MODIFIED="1559394565766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$advance_13.coverage" NAME="advance 13 Coverage Results" MODIFIED="1558951140935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$advance_13_3.coverage" NAME="advance 13.3 Coverage Results" MODIFIED="1558952069299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$v37.coverage" NAME="v37 Coverage Results" MODIFIED="1565519120903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$v02.coverage" NAME="v02 Coverage Results" MODIFIED="1561470660482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$v03.coverage" NAME="v03 Coverage Results" MODIFIED="1561472277130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$advance_20_1.coverage" NAME="advance 20.1 Coverage Results" MODIFIED="1559484111384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$basic_06.coverage" NAME="basic 06 Coverage Results" MODIFIED="1556023841155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
-    <SUITE FILE_PATH="coverage/python$advance_19_1.coverage" NAME="advance 19.1 Coverage Results" MODIFIED="1559481451309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$menu_.coverage" NAME="menu 菜单 Coverage Results" MODIFIED="1557150594807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
-    <SUITE FILE_PATH="coverage/python$advance_13_2.coverage" NAME="advance 13.2 Coverage Results" MODIFIED="1558951437034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$frame_.coverage" NAME="frame 窗口 Coverage Results" MODIFIED="1557150546244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
-    <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 百度贴吧 Coverage Results" MODIFIED="1565537838763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧" />
-    <SUITE FILE_PATH="coverage/python$tkinter__bug.coverage" NAME="tkinter 屏保 bug问题未解决 Coverage Results" MODIFIED="1557749395549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
-    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1566119129372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/伯乐在线" />
-    <SUITE FILE_PATH="coverage/python$alien02.coverage" NAME="alien02 Coverage Results" MODIFIED="1566744269726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
-    <SUITE FILE_PATH="coverage/python$v01.coverage" NAME="v01 Coverage Results" MODIFIED="1561470007971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$_1.coverage" NAME="`1 Coverage Results" MODIFIED="1556979358977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 基础语法系列" />
     <SUITE FILE_PATH="coverage/python$advance_17_2.coverage" NAME="advance 17.2 Coverage Results" MODIFIED="1559391747513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$massagebox_.coverage" NAME="massagebox 对话框 Coverage Results" MODIFIED="1557151207009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$alien01.coverage" NAME="alien01 Coverage Results" MODIFIED="1566743417446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
+    <SUITE FILE_PATH="coverage/python$08.coverage" NAME="08 Coverage Results" MODIFIED="1555166034206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
+    <SUITE FILE_PATH="coverage/python$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1557067692013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$advance_18_3.coverage" NAME="advance 18.3 Coverage Results" MODIFIED="1559400125072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$advance_19_1.coverage" NAME="advance 19.1 Coverage Results" MODIFIED="1559481451309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
     <SUITE FILE_PATH="coverage/python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1558800913255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 个人准面快捷小程序" />
+    <SUITE FILE_PATH="coverage/python$basic_03.coverage" NAME="basic 03 Coverage Results" MODIFIED="1555946545601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
+    <SUITE FILE_PATH="coverage/python$frame_.coverage" NAME="frame 窗口 Coverage Results" MODIFIED="1557150546244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$tkinter_.coverage" NAME="tkinter 屏保 Coverage Results" MODIFIED="1557586916403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$api.coverage" NAME="api Coverage Results" MODIFIED="1617870942161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/使用API" />
+    <SUITE FILE_PATH="coverage/python$v37.coverage" NAME="v37 Coverage Results" MODIFIED="1565519120903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$menu_.coverage" NAME="menu 菜单 Coverage Results" MODIFIED="1557150594807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$basic_07.coverage" NAME="basic 07 Coverage Results" MODIFIED="1556025467077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
+    <SUITE FILE_PATH="coverage/python$v36.coverage" NAME="v36 Coverage Results" MODIFIED="1565515211191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$tkinter__bug.coverage" NAME="tkinter 屏保 bug问题未解决 Coverage Results" MODIFIED="1557749395549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$advance_19_2.coverage" NAME="advance 19.2 Coverage Results" MODIFIED="1559482268923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$cookie.coverage" NAME="cookie Coverage Results" MODIFIED="1566115733836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/03 cookie 开心网" />
+    <SUITE FILE_PATH="coverage/python$v35.coverage" NAME="v35 Coverage Results" MODIFIED="1565515264101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$advance_20_1.coverage" NAME="advance 20.1 Coverage Results" MODIFIED="1559484111384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$pygal.coverage" NAME="pygal Coverage Results" MODIFIED="1609921107291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/使用API" />
+    <SUITE FILE_PATH="coverage/python$random.coverage" NAME="random Coverage Results" MODIFIED="1557586594388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProgramData/Anaconda3/Lib" />
+    <SUITE FILE_PATH="coverage/python$basic_06.coverage" NAME="basic 06 Coverage Results" MODIFIED="1556023841155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
+    <SUITE FILE_PATH="coverage/python$Antithetical_couplet.coverage" NAME="Antithetical couplet Coverage Results" MODIFIED="1587711311393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目" />
+    <SUITE FILE_PATH="coverage/python$v06.coverage" NAME="v06 Coverage Results" MODIFIED="1562428565552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$advance_13_3.coverage" NAME="advance 13.3 Coverage Results" MODIFIED="1558952069299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$v01.coverage" NAME="v01 Coverage Results" MODIFIED="1561470007971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$basic_01.coverage" NAME="basic 01 Coverage Results" MODIFIED="1555515439457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题练习" />
+    <SUITE FILE_PATH="coverage/python$advance_18_1.coverage" NAME="advance 18.1 Coverage Results" MODIFIED="1559394565766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$v02.coverage" NAME="v02 Coverage Results" MODIFIED="1561470660482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 百度贴吧 Coverage Results" MODIFIED="1565537838763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/01 百度贴吧" />
+    <SUITE FILE_PATH="coverage/python$advance_20_2.coverage" NAME="advance 20.2 Coverage Results" MODIFIED="1559484963719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$allen_invasion.coverage" NAME="allen_invasion Coverage Results" MODIFIED="1566311498937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
+    <SUITE FILE_PATH="coverage/python$alien02.coverage" NAME="alien02 Coverage Results" MODIFIED="1566744269726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
+    <SUITE FILE_PATH="coverage/python$advance_17_1.coverage" NAME="advance 17.1 Coverage Results" MODIFIED="1559391637001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$advance_13_2.coverage" NAME="advance 13.2 Coverage Results" MODIFIED="1558951437034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$advance_18_2.coverage" NAME="advance 18.2 Coverage Results" MODIFIED="1559396340279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
     <SUITE FILE_PATH="coverage/python$01.coverage" NAME="01 Coverage Results" MODIFIED="1558362083998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp tk 飞机大战/v1" />
+    <SUITE FILE_PATH="coverage/python$v05.coverage" NAME="v05 Coverage Results" MODIFIED="1562429136262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$_1.coverage" NAME="`1 Coverage Results" MODIFIED="1556979358977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 基础语法系列" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_speech_py.coverage" NAME="pytest in speech.py Coverage Results" MODIFIED="1596075329715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="网页自动化 Coverage Results" MODIFIED="1625473520606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1610439297585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$v04.coverage" NAME="v04 Coverage Results" MODIFIED="1561473386470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
+    <SUITE FILE_PATH="coverage/python$03.coverage" NAME="03 Coverage Results" MODIFIED="1555073461959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
+    <SUITE FILE_PATH="coverage/python$massagebox_.coverage" NAME="massagebox 对话框 Coverage Results" MODIFIED="1557151207009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
+    <SUITE FILE_PATH="coverage/python$advance_20_3.coverage" NAME="advance 20.3 Coverage Results" MODIFIED="1559486043716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$advance_13.coverage" NAME="advance 13 Coverage Results" MODIFIED="1558951140935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
     <SUITE FILE_PATH="coverage/python$settings.coverage" NAME="settings Coverage Results" MODIFIED="1567582416918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目/alien" />
     <SUITE FILE_PATH="coverage/python$07.coverage" NAME="07 Coverage Results" MODIFIED="1555165749423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
-    <SUITE FILE_PATH="coverage/python$tkinter_.coverage" NAME="tkinter 屏保 Coverage Results" MODIFIED="1557586916403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
-    <SUITE FILE_PATH="coverage/python$v04.coverage" NAME="v04 Coverage Results" MODIFIED="1561473386470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$random.coverage" NAME="random Coverage Results" MODIFIED="1557586594388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProgramData/Anaconda3/Lib" />
-    <SUITE FILE_PATH="coverage/python$advance_20_3.coverage" NAME="advance 20.3 Coverage Results" MODIFIED="1559486043716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
-    <SUITE FILE_PATH="coverage/python$cookie.coverage" NAME="cookie Coverage Results" MODIFIED="1566115733836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫/练习/03 cookie 开心网" />
-    <SUITE FILE_PATH="coverage/python$v05.coverage" NAME="v05 Coverage Results" MODIFIED="1562429136262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$02.coverage" NAME="02 Coverage Results" MODIFIED="1554996092151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
-    <SUITE FILE_PATH="coverage/python$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1557067692013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp Tkinter" />
-    <SUITE FILE_PATH="coverage/python$v06.coverage" NAME="v06 Coverage Results" MODIFIED="1562428565552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$v35.coverage" NAME="v35 Coverage Results" MODIFIED="1565515264101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
-    <SUITE FILE_PATH="coverage/python$basic_03.coverage" NAME="basic 03 Coverage Results" MODIFIED="1555946545601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="微信机器人 Coverage Results" MODIFIED="1590482136636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/项目" />
-    <SUITE FILE_PATH="coverage/python$08.coverage" NAME="08 Coverage Results" MODIFIED="1555166034206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
-    <SUITE FILE_PATH="coverage/python$advance_18_3.coverage" NAME="advance 18.3 Coverage Results" MODIFIED="1559400125072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/进阶练习" />
+    <SUITE FILE_PATH="coverage/python$v03.coverage" NAME="v03 Coverage Results" MODIFIED="1561472277130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 爬虫" />
     <SUITE FILE_PATH="coverage/python$basic_09.coverage" NAME="basic 09 Coverage Results" MODIFIED="1556028464063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp 习题课练习/基础练习" />
+    <SUITE FILE_PATH="coverage/python$02.coverage" NAME="02 Coverage Results" MODIFIED="1554996092151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02 高级语法系列/cp 格式化文件存储" />
   </component>
   <component name="masterDetails">
     <states>

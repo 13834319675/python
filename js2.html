@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js计算器</title>
+</head>
+<body>
+<p>简单计算器</p>
+<table border="1" style="position: center">
+    <tr>
+        <td>输入第一个数字:</td>
+        <td><input type="text" id="frist"></td>
+    </tr>
+    <tr>
+        <td>输入第二个数字:</td>
+        <td><input type="text" id="twice"></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="position: center;padding: 2px" >
+            <button onclick="add()" >+</button>
+            <button onclick="">-</button>
+            <button onclick="">*</button>
+            <button onclick="">/</button>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">
+            <p id="result"></p>
+        </td>
+    </tr>
+</table>
+<script>
+<!--    获取输入内容-->
+    function getFristValue(){
+    var fristnumber = document.getElementById("frist").value;
+    return fristnumber;
+    }
+    function getTWiceValue(){
+    var twicenumber = document.getElementById("twice").value;
+    return twicenumber;
+    }
+//    结果
+function  sendResult(result_1){
+    var num = document.getElementById("result");
+    num.innerHTML = result_1;
+}
+//    加法
+function add(){
+    var a = getFristValue();
+    var b = getTWiceValue();
+    var re=Number(a) +Number(b);
+    sendResult(re);
+}
+</script>
+</body>
+</html>

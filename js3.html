@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js练习</title>
+</head>
+<body>
+<p>点击按钮，测试带有 break 语句的循环。</p>
+<button onclick="myFunction()">点击这里</button>
+<button onclick="mf()">点击这里</button>
+<p id="demo"></p>
+<p id="md"></p>
+<script>
+    function myFunction(){
+	var x="",i=0;
+	for (i=0;i<10;i++){
+		if (i==3){
+    			break;
+			}
+    	x=x + "该数字为 " + i + "<br>";
+    }
+	document.getElementById("demo").innerHTML=x;
+}
+    function mf(){
+    var x="",i=0;
+    for (i=0;i<100;i++){
+        if (i==50) break;
+        x = x + "数字为"+ i + "<br/>";
+    }
+    document.getElementById("md").innerHTML= x;
+}
+</script>
+</body>
+</html>

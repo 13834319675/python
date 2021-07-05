@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js练习</title>
+</head>
+<body>
+<p>点击这里来创建变量，并显示结果。</p>
+<button onclick="myFunction()">点击这里</button>
+<button onclick = "Myfunction()">点击这里</button>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+function myFunction(){
+	/*var carname="Volvo";*/
+	document.getElementById("demo").innerHTML="volvo";
+}
+var i;
+var cars = new Array();
+cars[0] = "Saab";
+cars[1] = "Volvo";
+cars[2] = "BMW";
+
+for (i=0;i<cars.length;i++)
+{
+document.write(cars[i] + "<br>");
+};
+
+var person = {
+    fristname : "陈",
+    lastname : "鹏",
+    id : 123,
+};
+document.write(person.fristname + "<br/>");
+document.write(person["lastname"] + "<br/>");
+
+
+var person1 = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+document.getElementById("demo1").innerHTML =
+	person1.firstName + " 现在 " + person1.age + " 岁.";
+
+
+function NyFunction(){
+    alert("hellow world")
+};
+</script>
+
+</body>
+</html>

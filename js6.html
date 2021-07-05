@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js练习</title>
+</head>
+<body>
+<p>请点击输入数字:</p>
+
+<input type="number" max="500" min="100" id="pol" required>
+<button onclick="myfunc()">验证</button>
+
+<p>如果输入数字小于100或者大于500则提示错误信息</p>
+<p id="done"></p>
+<script>
+    function myfunc(){
+        var inpobj = document.getElementById("pol")
+        if (inpobj.checkValidity() == false){
+            document.getElementById("done").innerHTML=inpobj.validationMessage
+        }else {
+            document.getElementById("done").innerHTML= "输入正确"
+        }
+    }
+</script>
+
+</body>
+</html>

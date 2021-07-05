@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格label</title>
+</head>
+<body>
+<h4>单元格跨行排列</h4>
+<table border="2">
+    <tr>
+        <th>标题1</th>
+        <th colspan="2">标题2</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+</table>
+
+<h4>这是第二个表格</h4>
+<table border="2">
+    <tr>
+        <th>标题1</th>
+        <td>内容1</td>
+    </tr>
+    <tr>
+        <th rowspan="2">标题2</th>
+        <td>内容3</td>
+    </tr>
+    <tr>
+        <td>内容4</td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <td>
+            <p>我是一个段落</p><br>
+            <p>我是另一个段落</p>
+        </td>
+        <td>
+            <p>我是单元格的另一个表格</p>
+            <table border="1" cellpadding="100">
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>我是单元格的另一个列表</p><br>
+            <li>apples</li>
+            <li>bananas</li>
+            <li>pineapple</li>
+        </td>
+        <td>
+            结束
+        </td>
+    </tr>
+</table>
+
+<ul style="list-style-type: square">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<div id="title" style="width: 500px;background-color: antiquewhite;text-align: center">
+    <h1 style="margin-bottom: 0">主要的网页标题</h1>
+</div>
+<div id="mean" style="background-color: #8a6d3b;height: 200px;width: 200px;float: left">
+    <b>菜单</b><br>
+    HTML <br>
+    css <br>
+    JavaScript <br>
+</div>
+<div id="centent" style="background-color: #3e8f3e;height: 200px;width: 400px;float: left">
+    内容在这里
+</div>
+<div id="footer" style="background-color: #777777;width:500px;clear: both;text-align: center;">
+    版权 © runoob.com<
+</div>
+
+<div>
+    <form action="html_form_action.php" name="input" method="get">
+        fristname: <input type="text" name="fristname"><br>
+        lastname: <input type="text" name="lastname"><br>
+        password: <input type="password" name="password"><br>
+        <input type="radio" name="sex" value=",male">女生:<br>
+        <input type="radio" name="sex" value="female">男生:<br>
+        <input type="checkbox" name="vohicle" value="bike">bike<br>
+        <input type="checkbox" name="vohicle" value="car">car <br>
+        <select name="love" id="car">
+            <option value="bike">bike</option>
+            <option value="car" selected>car</option>
+            <option value="aircraft">aircraft</option>
+            <option value="ship">ship</option>
+        </select>
+        Username:<input type="text" name="username">
+        <input type="submit" value="submit">
+        <input type="button" value="helloword"><br>
+        <textarea name="文本框" id="text" cols="30" rows="10">我是一个文本框</textarea>
+    </form>
+
+   <form action="">
+        <fieldset>
+            <legend>Personal information:</legend>
+            Name: <input type="text" size="30"><br>
+            E-mail: <input type="text" size="30"><br>
+            Date of birth: <input type="text" size="10">
+        </fieldset>
+    </form>
+    <p>
+        <b>注意:</b> <p>表单本身是不可见的。并且注意一个文本字段的默认宽度是20个字符。</p>
+    </p>
+</div>
+
+
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" id="a" value="50">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>注意:</strong> Edge 12及更早 IE 版本的浏览器不支持 output 元素。</p>
+
+</body>
+</html>
+</body>
+</html>

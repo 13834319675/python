@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+</head>
+<body>
+<p>js表单验证</p>
+<p>请输入1-10之间的数字</p>
+<form name="myForm" action="demo-form.php" onsubmit="return validateForm()" method="post">
+姓: <input type="text" name="fname">
+<input type="submit" value="提交">
+</form>
+
+<p>输入1-10之间的数字</p>
+<form action="" name="mynnum" onsubmit="return NumFrom()" method="post">
+    数字: <input type="text" name="from">
+    <input type="submit" value="提交">
+</form>
+
+
+<script>
+    function validateForm()
+{
+  var x=document.forms["myForm"]["fname"].value
+  if (x==null || x=="")
+  {
+    alert("姓必须填写")
+    return false
+  }
+}
+
+function NumFrom()
+{
+    var x = document.forms["mynum"]["from"].value
+    x = Number(x)
+    alert(x)
+    if (x==null || x=="")
+    {
+        alert("不能为空")
+    } if (x>0 || x<10)
+    {
+        alert("输入正确")
+    }else{
+        alert("输入错误")
+}
+    return false
+}
+
+</script>
+</body>
+</html>
